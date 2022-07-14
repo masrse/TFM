@@ -7,13 +7,6 @@
 #include "pthread.h"
 #include "fifo_pkt.h"
 
-/**
-  \class Lora_tcp_server
-  \brief Servidor tcp para almacenar los pkt's en la FiFo
-  \author Jesus Palacios
-  \date 27/11/2010
-*/
-
 class Lora_tcp_server {
 
     public:

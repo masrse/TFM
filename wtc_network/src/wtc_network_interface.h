@@ -3,12 +3,6 @@
 #include "network_controller_interface.h"
 #include "wtc_base.h"
 
-/**
-  \class Network Interface
-  \brief Interfaz para abstraer de la clase wtc_network
-  \author Maria Sepulveda
-*/
-
 class Wtc_network_interface {
   public:
     virtual void setup( const char ip[], const uint16_t port, uint8_t eui_0[], uint8_t key_0[] )                        = 0;

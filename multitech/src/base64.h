@@ -7,14 +7,6 @@
 #include <stdint.h>
 #include <sys/types.h> 
 
-/**
-  \class Base64
-  \brief Clase para codificar y decodificar tramas en Base64
-  \author Jesus Palacios
-  \date 07/01/2021
-*/
-
-
 class Base64 {
     
     public:

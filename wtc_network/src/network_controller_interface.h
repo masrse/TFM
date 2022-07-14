@@ -2,13 +2,6 @@
 
 #include "conn_config.h"
 
-/**
-  \class Network_controller_interface
-  \brief Interfaz para clases de tipo controladores de comunicaciones
-  \author Maria Serrano
-  \date 10/12/2020
-*/
-
 class Network_controller_interface {
   public:
     /**

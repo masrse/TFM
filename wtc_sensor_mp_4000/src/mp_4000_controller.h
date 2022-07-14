@@ -3,11 +3,6 @@
 #include "stdint.h"
 #include "uC_interface.h"
 
-/*
-  \class Controlador del sensor mcp-4000
-  \brief Utiliza protocolo hardware serial
-  \author Antonio Garcia
-*/
 class Mp_4000_Controller {
   public:
     /**

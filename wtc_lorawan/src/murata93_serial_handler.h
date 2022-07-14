@@ -8,17 +8,6 @@
 #include <stdio.h>
 #include <avr/pgmspace.h>
 
-/**
-  \class Murata93_serial_handler
-  \brief Interfaz serial via commandos AT para el Murata93
-  \author Antonio Garcia <antonio.garcia@witrac.es>
-  \date 21/11/2017
-
-  \Note Tanto murata93_controller como murata93_serial_handler están ligados a
-  una versión específica del firmware del murata93. La única versión soportada
-  para este driver es la v1.1.03
-*/
-
 namespace Murata93_ATCmd_evts {
 
     static const uint8_t resp_msg_len_max               = 110;

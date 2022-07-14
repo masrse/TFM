@@ -2,13 +2,6 @@
 
 #include "pkt.h"
 
-/**
-  \class Comm_mgr
-  \brief Interfaz para parsear y enviar pkt a la api
-  \author Javier Barahona <javier.barahona@witrac.es>
-  \date 27/11/2020
-*/
-
 // estructura para receive_callback
 typedef struct {
     char* const payload;

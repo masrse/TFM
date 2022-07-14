@@ -11,11 +11,6 @@
 #include "wtc_network_interface.h"
 #include "uC_interface.h"
 
-/**
-  \class Network
-  \brief Módulo Cellular para la arquitectura WiTraC
-*/
-
 class Network: public Port, public Irx, public Wtc_network_interface {
   public:
     /**

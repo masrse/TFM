@@ -8,11 +8,6 @@
 #include "fifo.h"
 #include "uC_interface.h"
 
-/*
-  \class Sensor_mcp-4000
-  \brief Clase para sensores de parametros del controlador mp-4000 (controlador refeer)
-  \author Antonio Garcia
-*/
 class Sensor_mp_4000: public Sensor, public Low_power_trigger {
 
   typedef enum {

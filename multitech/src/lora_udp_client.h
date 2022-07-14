@@ -14,14 +14,6 @@
 #include "lossy.h"
 #include "no_lossy.h"
 
-/**
-  \class Lora_udp_client
-  \brief Clente udp para enviar pkt's via lora
-  \author Jesus Palacios
-  \date 08/01/2021
-*/
-
-
 class Lora_udp_client {
 
     public:

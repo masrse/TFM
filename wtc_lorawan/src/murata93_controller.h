@@ -6,14 +6,6 @@
 #include "lora_controller.h"
 #include "uC_interface.h"
 
-/**
-  \class Murata93_base_controller
-  \brief Controlador para el chip Murata 93
-         Datasheet: https://drive.google.com/drive/folders/1DxPF_InoIwwmJ9WlW_H8YYaEtDXy5l9B?usp=sharing
-  \author Antonio Garcia, María Sepúlveda
-  \date 05/11/2020
-*/
-
 namespace Murata93_ATCmd_cmds {
     static const char at[] PROGMEM   = "AT";
     static const char endl[] PROGMEM = "\r";

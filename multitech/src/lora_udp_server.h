@@ -8,13 +8,6 @@
 #include "base64.h"
 #include "lora_udp_client.h"
 
-/**
-  \class Lora_udp_server
-  \brief Servidor udp para almacenar los pkt's en la FiFo
-  \author Jesus Palacios
-  \date 07/01/2021
-*/
-
 class Lora_udp_server {
 
     private:
